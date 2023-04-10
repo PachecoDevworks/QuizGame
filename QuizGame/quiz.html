@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuizGame</title>
+  <link rel="stylesheet" href="quiz.css">
+
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+</head>
+<body>
+
+  <div class="container hidden">
+  
+    <h1>
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Brain.png" alt="Brain" width="45" height="45" />
+       QUIZ GAME 
+       <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Brain.png" alt="Brain" width="45" height="45" />
+      </h1>
+      <div id="question-container">
+        <p class="counterInfo">4/5</p>
+        <h2 id="question">asd<h2>
+          <pre id="code2_5"><code id="codesnippet">
+              #include &ltstdio.h>
+                void main()
+                {
+                    int x = 5 * 9 / 3 + 9;
+                }
+            </code>
+          </pre>
+          <div class="codeWrap">
+
+            <pre id="code3_1">
+              <code class="codeArea">
+              
+            </code></pre>
+          </div>
+          
+          
+      </div>
+          <ul class="answer-list">
+            <li>
+            <input type="radio" id="answer_a" class="choice" name="answer" value="a">
+            <label for="answer_a" id="answerA"> Answer A</label>
+            </li>
+            
+            <li>
+            <input type="radio" id="answer_b" class="choice" name="answer" value="b"> 
+            <label for="answer_b" id="answerB">Answer B</label>
+            </li>
+            
+            <li>
+            <input type="radio" id="answer_c" class="choice" name="answer" value="c"> 
+            <label for="answer_c" id="answerC">Answer C</label>
+            </li>
+            
+            <li>
+            <input type="radio" id="answer_d" class="choice" name="answer" value="d">
+            <label for="answer_d" id="answerD"> Answer D</label>
+            </li>
+            
+         </ul>
+
+    <div class="btnContainer">
+      <span class="radio_selected"></span>
+      <!-- <button class="prev">Previous</button> -->
+      <button class="next">Next</button>
+      <button class="next2">Next</button>
+      <button class="next3">Next</button>
+      
+      <h2 class="timer"></h2>
+      <h2 class="timer2"></h2>
+      <h2 class="resultOne hidden"></h2>
+      <button class="submit">Submit</button>
+    </div>
+          
+  </div>
+
+  <div class="container2 hidden">
+    <div class="paragraph">
+
+    
+    <h2 class="header"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Angry%20Face%20with%20Horns.png" alt="Angry Face with Horns" width="35" height="35" /> ❗❗❗ Please read this before you start ❗❗❗ <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Angry%20Face%20with%20Horns.png" alt="Angry Face with Horns" width="35" height="35" /></h2>
+
+    <p class="msg_one">
+        Welcome to our exciting quiz game! Here, you can put your knowledge to the test by
+        answering a series of questions. These questions will cover various topics in C
+        programming, such as data types, code output, syntax, and more. To play the game, 
+        you need to select from the given choices. If you enter an incorrect character that 
+        is not included in the choices, the same question will be prompted again. Therefore, 
+        make sure to choose the correct character and, most importantly, the correct answer.
+    </p><br>
+    <p class="msg_one">
+      Furthermore, the difficulty of the questions will increase as you progress through 
+        the rounds. Each round will be scored accordingly. In addition, if you decide to 
+        quit between rounds, your score for each round will be printed, and the score for
+        the rounds that were not taken will be automatically zero. Moreover, if you are not 
+        satisfied with your score, you can re-attempt up to five times. The questions will 
+        be arranged randomly each time you re-attempt. This will help you improve your 
+        understanding and familiarization of the questions.
+    </p><br>
+    <p class="msg_one">
+      Good luck, and do your best.
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Crossed%20Fingers.png" alt="Crossed Fingers" width="35" height="35" />
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Crossed%20Fingers.png" alt="Crossed Fingers" width="35" height="35" />
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Crossed%20Fingers.png" alt="Crossed Fingers" width="35" height="35" />
+    </p>
+    <p class="msg_one">Remember, "Failure is life's greatest teacher".
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Heart%20Hands.png" alt="Heart Hands" width="35" height="35" />
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Heart%20Hands.png" alt="Heart Hands" width="35" height="35" />
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Heart%20Hands.png" alt="Heart Hands" width="35" height="35" />
+    </p> <br>
+    </div>
+    <div class="btn2div">
+      <button class="start">START</button>
+      <button class="exit"> EXIT </button>
+    </div>
+  </div>
+
+  <div class="result_div">
+    <h1 class="result_h1"></h1>
+    <div class="round_exit">
+
+      <button class="nextround_btn">Next Round</button>
+      <button class="nextround_btn3">Next Round</button>
+      <button class="exit_result">Exit</button>
+    </div>
+    <button class="exit_first">Exit</button>
+  </div>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  
+<script>hljs.highlightAll();</script>
+
+  <script>hljs.highlightAll();</script>
+
+<script src="quiz.js"></script>
+</body>
+</html>
