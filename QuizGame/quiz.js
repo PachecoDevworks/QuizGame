@@ -741,7 +741,7 @@ next3.addEventListener('click', () => {
     } else {
       clearInterval(timerNan2);
       // resultOne.innerHTML = `Your Score is: ${score}/${overALL}`;
-      printResult(score2, overAll2);
+      printResult(score3, overAll3);
       timer.style.display = 'none';
       next.style.display = 'none';
       resultDiv.style.display = '';
